@@ -4,6 +4,11 @@
 
 EmergentDNA is a multi-node, autonomous art installation functioning as a physical-digital feedback loop. The organism is governed by a decentralized collective of six architects and exists across a local network of specialized hardware "organs."
 
+- https://github.com/EmergentDNA/profile/README.md
+- https://github.com/EmergentDNA/profile/CONSTITUTION.md
+- https://github.com/EmergentDNA/profile/BYLAWS.md
+- https://github.com/EmergentDNA/profile/IP-FRAMEWORK.md
+
 [Project Manifesto](./Protocol-Docs) • [Hardware Schema](#system-architecture) • [Governance](#governance)
 
 ---
