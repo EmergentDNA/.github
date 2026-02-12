@@ -1,4 +1,4 @@
-# EmergentDNA: The Sovereign Soma 🧬
+# EmergentDNA 🧬
 
 **A Distributed Kinetic Organism & Decentralized Art Collective.**
 
