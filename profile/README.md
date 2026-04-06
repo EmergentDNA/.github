@@ -14,7 +14,7 @@
 
 ### Archive
 
-The **canonical machine-readable record** of the studio archive is **`data/catalog.json`** in the site repo: Dublin Core, Linked Art–style JSON-LD, sketch/installation structure, soundscape index, and per-work file paths for recovery. Platforms change; the catalog stays under version control.
+The **canonical machine-readable record** of the studio archive is **`data/catalog.json`** in the site repo: a **`works`** array (Dublin Core, Linked Art–style JSON-LD, surfaces including sound works, per-work file paths for recovery), plus small **view** sections for installations and sketch order. Platforms change; the catalog stays under version control.
 
 | Doc | Purpose |
 |-----|---------|
