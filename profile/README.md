@@ -14,9 +14,12 @@
 
 ### Archive
 
-How the public site archive works — sketch index, manifest (`artworks.json`), sync script, and narrative chronicle pages:
+The **canonical machine-readable record** of the studio archive is **`data/catalog.json`** in the site repo: Dublin Core, Linked Art–style JSON-LD, sketch/installation structure, soundscape index, and per-work file paths for recovery. Platforms change; the catalog stays under version control.
 
-**[Archive chronicle](https://github.com/walhimer-studio/walhimer.github.io/blob/main/docs/archive-chronicle.md)** (in [`walhimer.github.io`](https://github.com/walhimer-studio/walhimer.github.io))
+| Doc | Purpose |
+|-----|---------|
+| **[Unified catalog](https://github.com/walhimer-studio/walhimer.github.io/blob/main/docs/unified-catalog.md)** | What `catalog.json` contains, refresh workflow, disaster recovery. |
+| **[Archive chronicle](https://github.com/walhimer-studio/walhimer.github.io/blob/main/docs/archive-chronicle.md)** | How the sketch index, manifest, and narrative pages fit together. |
 
 ---
 
@@ -24,7 +27,7 @@ How the public site archive works — sketch index, manifest (`artworks.json`), 
 
 | Repository | Description |
 |------------|-------------|
-| [**walhimer.github.io**](https://github.com/walhimer-studio/walhimer.github.io) | **Artist website** — installations, sketches archive, Pages deployment for mark-walhimer.com. |
+| [**walhimer.github.io**](https://github.com/walhimer-studio/walhimer.github.io) | **Artist website** — installations, sketches archive, **`data/catalog.json`** manifest, GitHub Pages for mark-walhimer.com. |
 | [**EmergentDNA**](https://github.com/walhimer-studio/EmergentDNA) | **Emergent DNA** — open specification for sources of uniqueness in generative works (reference implementation, RNG, genome spec). |
 | [**swiss-army**](https://github.com/walhimer-studio/swiss-army) | **Swiss Army Creative Toolkit** — portable browser foundation for exhibits and artworks (p5.js, Tone.js, docs, V1 shell). |
 | [**Web**](https://github.com/walhimer-studio/Web) | Web projects for the studio. |
