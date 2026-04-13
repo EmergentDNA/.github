@@ -1,45 +1,27 @@
-<!--
-  Walhimer Studio — organization profile for GitHub.
-  Path: walhimer-studio/.github/profile/README.md
-  Docs: https://docs.github.com/en/organizations/creating-a-custom-profile-page-for-your-organization
--->
+## Emergent DNA
 
-## Walhimer Studio
+**Open specification** for *sources of uniqueness* in generative works — not the artwork, palette, or physics. Same rules + same DNA reproduce the same world.
 
-**Generative art, protocols, and interactive tools** — work by [Mark Walhimer](https://github.com/walhimer).
+### Current (canonical)
 
-**Site:** [mark-walhimer.com](https://mark-walhimer.com) · **[Artist site repository](https://github.com/walhimer-studio/walhimer.github.io)** (GitHub Pages)
+| Resource | Role |
+|----------|------|
+| **[EmergentDNA/EmergentDNA](https://github.com/EmergentDNA/EmergentDNA)** | Reference implementation: canonical **`Rand`** / **`SeedRng`**, optional **`SpeciesGenome`** + **`expressIndividual`** (genotype only; no renderer, no audio). |
+| **Releases** | Tagged versions (semver). Pin integrations to a release tag. |
 
----
+**Three DNA types (conceptual):** **Seeded** (integer seed → PRNG), **Relational** (viewer / co-presence input), **Hybrid** (seeded structure + intentional unseeded surface).  
+Seeded pieces use one **`Rand`** constructor everywhere — see the spec repo `docs/SPEC.md`.
 
-### Archive
+### Works that use this (examples)
 
-The **canonical machine-readable record** of the studio archive is **`data/catalog.json`** in the site repo: a **`works`** array (Dublin Core, Linked Art–style JSON-LD, surfaces including sound works, per-work file paths for recovery), plus small **view** sections for installations and sketch order. Platforms change; the catalog stays under version control.
+- **Bloom / Release**, **Traveling Landscape** — seeded generative works (see ARS / studio documentation for piece-specific rules).
 
-| Doc | Purpose |
-|-----|---------|
-| **[Unified catalog](https://github.com/walhimer-studio/walhimer.github.io/blob/main/docs/unified-catalog.md)** | What `catalog.json` contains, refresh workflow, disaster recovery. |
-| **[Archive chronicle](https://github.com/walhimer-studio/walhimer.github.io/blob/main/docs/archive-chronicle.md)** | How the sketch index, manifest, and narrative pages fit together. |
+### Archive (previous chapter)
 
----
+Earlier experiments described a **distributed kinetic organism**, **DAO**, and **real-time parameter streams** mapped to hardware. That narrative may live in **archived** repositories under this org and is **not** the definition of the browser **genome** spec above.
 
-### Repositories
-
-| Repository | Description |
-|------------|-------------|
-| [**walhimer.github.io**](https://github.com/walhimer-studio/walhimer.github.io) | **Artist website** — installations, sketches archive, **`data/catalog.json`** manifest, GitHub Pages for mark-walhimer.com. |
-| [**EmergentDNA**](https://github.com/walhimer-studio/EmergentDNA) | **Emergent DNA** — open specification for sources of uniqueness in generative works (reference implementation, RNG, genome spec). |
-| [**swiss-army**](https://github.com/walhimer-studio/swiss-army) | **Swiss Army Creative Toolkit** — portable browser foundation for exhibits and artworks (p5.js, Tone.js, docs, V1 shell). |
-| [**Web**](https://github.com/walhimer-studio/Web) | Web projects for the studio. |
-| [**Protocol-Docs**](https://github.com/walhimer-studio/Protocol-Docs) | Protocol documents. |
-| [**.github**](https://github.com/walhimer-studio/.github) | Organization metadata and this profile. |
+If you landed from old links: use **[EmergentDNA/EmergentDNA](https://github.com/EmergentDNA/EmergentDNA)** for the current **code + law**.
 
 ---
 
-### Emergent DNA (short)
-
-Emergent DNA defines **how uniqueness is produced** in generative systems — not the artwork, palette, or physics alone. Same rules and same DNA can reproduce the same world. See the [**EmergentDNA**](https://github.com/walhimer-studio/EmergentDNA) repository for the canonical spec and code.
-
----
-
-_Maintained by Mark Walhimer._
+*Maintained by Mark Walhimer.*
